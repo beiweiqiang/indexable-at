@@ -1,7 +1,7 @@
 {
   "name": "indexable-at",
   "description": "Polyfill for Array#at https://github.com/tc39/proposal-relative-indexing-method.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/beiweiqiang/indexable-at",
   "author": "beiweiqiang (https://github.com/beiweiqiang)",
   "repository": "beiweiqiang/indexable-at",
