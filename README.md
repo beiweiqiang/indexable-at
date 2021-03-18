@@ -21,4 +21,7 @@ console.log(arr.at(-1)); // 6
 const str = 'abcde';
 console.log(str.at(1)); // 'b'
 console.log(str.at(-1)); // 'e'
+
+const int8 = new Int8Array([1, 2, 3, 4]);
+console.log(int8.at(-1)); // 4
 ```

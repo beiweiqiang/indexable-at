@@ -14,3 +14,6 @@ assert.strictEqual(str.at(1), 'b');
 assert.strictEqual(str.at(-1), 'e');
 assert.strictEqual(str.at(-3), 'c');
 assert.strictEqual(str.at(-13), undefined);
+
+var int8 = new Int8Array([1, 2, 3, 4]);
+assert.strictEqual(int8.at(-1), 4);

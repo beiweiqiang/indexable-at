@@ -1,5 +1,15 @@
 (function () {
-  var typeArr = [Array, String, Uint8Array];
+  var typeArr = [Array, String].concat([
+    Int8Array,
+    Uint8Array,
+    Uint8ClampedArray,
+    Int16Array,
+    Uint16Array,
+    Int32Array,
+    Uint32Array,
+    Float32Array,
+    Float64Array
+  ]);
   for (var i = 0; i < typeArr.length; i++) {
     if (typeof typeArr[i].prototype.at !== 'function') {
       Object.defineProperty(typeArr[i].prototype, 'at', {
